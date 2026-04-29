@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "截图自由 (滚动拼接版)",
+  "version": "4.0",
+  "description": "通过自动滚屏拼接的方式截取网页长图",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "debugger"
+  ]
+}
